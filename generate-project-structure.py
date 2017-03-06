@@ -8,7 +8,7 @@ parser.add_option("-n","--name",action = "store", type="string", dest="project_n
 
 folders = ["data", "doc", "results", "src", "bin", "test"]
 
-default_files={"":["CITATION", "README.md", "LICENSE"], "doc": ["notebook.md","manuscript.md","changelog.txt"]}
+default_files={"":["CITATION", "README.md", "LICENSE",".gitignore"], "doc": ["notebook.md","manuscript.md","changelog.txt"]}
 
 def save_create_folder(name):
     "creates folder if it doesn't exist yet."
